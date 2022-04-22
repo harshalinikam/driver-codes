@@ -5,7 +5,14 @@ using namespace std;
 
 void solve (int opening_hh, int opening_mm, int duration_hh, int duration_mm) {
     // Your code goes here
-  
+      int min=opening_mm+duration_mm;
+      int hr=opening_hr+duration_hr; 
+      hr=hr+(min/60);
+      min=min%60;
+      hr=hr%24;
+     cout<<hr<<""<<mm;
+
+
     // Print the output here
 }
 
